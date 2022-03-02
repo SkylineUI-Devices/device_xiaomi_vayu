@@ -188,6 +188,8 @@ ro.soc.model=SM8150
 # System Shutdown
 sys.vendor.shutdown.waittime=500
 
+# USB
+vendor.usb.product_string=Poco X3 Pro
+
 # WiFi
 wifi.aware.interface=wifi-aware0
-
