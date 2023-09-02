@@ -908,6 +908,8 @@ vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+vendor/lib64/libnanopb.so
+vendor/lib/libnanopb.so
 
 # Sensors configs
 vendor/etc/sensors/config/adux1050_0.json
