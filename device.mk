@@ -134,7 +134,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
 PRODUCT_PACKAGES += \
-   libstdc++.vendor
+   libstdc++_vendor
 
 # Google camera
 $(call inherit-product-if-exists, vendor/mgc/config.mk)
