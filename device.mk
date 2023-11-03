@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
 # Google camera
 $(call inherit-product-if-exists, vendor/mgc/config.mk)
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-com.google.android.GoogleCameraEng.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.google.android.GoogleCameraEng.xml \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.google.android.GoogleCameraEng.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.google.android.GoogleCameraEng.xml \
 
 # Charger
 PRODUCT_PACKAGES += \
