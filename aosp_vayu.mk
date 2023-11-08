@@ -20,10 +20,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-# Boot Animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-
 # Google Camera
 $(call inherit-product-if-exists, vendor/mgc/config.mk)
 
