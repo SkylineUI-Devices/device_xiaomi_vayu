@@ -19,14 +19,6 @@ camera.disable_zsl_mode=true
 persist.vendor.camera.facepp.fdenable=0
 persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera
 
-# Miui Camera
-ro.miui.notch=1
-ro.miui.build.region=IN
-ro.product.mod_device=vayu
-ro.com.google.lens.oem_camera_package=com.android.camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
-
 # Charger
 ro.charger.disable_init_blank=true
 
