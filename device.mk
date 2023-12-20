@@ -138,7 +138,8 @@ PRODUCT_PACKAGES += \
 
 # Charger
 PRODUCT_PACKAGES += \
-    libsuspend
+    libsuspend \
+    charger_res_images
 
 # Config Store
 PRODUCT_PACKAGES += \
