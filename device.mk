@@ -534,6 +534,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor
 
+# Missing libs
+PRODUCT_PACKAGES += \
+         libstagefright_bufferpool@2.0.1
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
