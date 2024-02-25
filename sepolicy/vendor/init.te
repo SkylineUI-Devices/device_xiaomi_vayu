@@ -12,3 +12,11 @@ allow init adsprpcd_file:file mounton;
 
 allow init per_boot_file:file ioctl;
 allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
+
+allow init proc:file write;
+
+get_prop(init, usb_control_prop)
+
+allow init hal_fingerprint_default:process ptrace;
+
+set_prop(init, usb_control_prop)
