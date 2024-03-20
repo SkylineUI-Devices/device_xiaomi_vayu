@@ -427,6 +427,8 @@ PRODUCT_PACKAGES += \
     libjson \
     libjson.vendor \
     libprotobuf-cpp-full \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl
 
 PRODUCT_COPY_FILES += \
