@@ -503,6 +503,8 @@ vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 vendor/lib64/libhdcpsrm.so|0e5aa52dabdb35ffd344d8c0a8a287b10526165f
 vendor/lib64/liboemcrypto.so|457e298d46454bed76defd96eaedb047b6b50d74
+vendor/lib64/libsecureui.so
+vendor/lib64/libsecureui_svcsock.so
 
 # Display (SDM) - from qssi_NX627J-user 11 RKQ1.200826.002 nubia.20210420.160129 release-keys
 vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
