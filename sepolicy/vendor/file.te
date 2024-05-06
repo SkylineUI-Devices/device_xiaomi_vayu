@@ -9,6 +9,7 @@ type goodix_fingerprint_data_file, data_file_type, file_type, core_data_file_typ
 type per_boot_file, file_type, data_file_type, core_data_file_type;
 
 type persist_subsys_file, vendor_persist_type, file_type;
+type sysfs_fps, sysfs_type, fs_type;
 
 type proc_last_kmsg, fs_type, proc_type;
 

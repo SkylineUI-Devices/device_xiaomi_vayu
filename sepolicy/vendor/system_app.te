@@ -7,3 +7,7 @@ r_dir_file(system_app, vendor_sysfs_battery_supply)
 
 # Xiaomi Parts
 allow system_app sysfs_thermal:file rw_file_perms;
+
+# Allow system_app to read fps info node
+allow system_app sysfs_fps:dir search;
+allow system_app sysfs_fps:file r_file_perms;
