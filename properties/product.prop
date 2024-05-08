@@ -8,6 +8,12 @@ audio.sys.offload.pstimeout.secs=3
 # Charger
 ro.charger.enable_suspend=true
 
+# Battery Saving
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
+power.saving.mode=1
+pm.sleep_mode=1
+
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 iorapd.perfetto.enable=true
