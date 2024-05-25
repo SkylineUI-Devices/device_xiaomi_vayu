@@ -33,6 +33,9 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Inherit from release keys
+$(call inherit-product, vendor/keys/product.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
