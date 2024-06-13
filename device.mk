@@ -38,7 +38,7 @@ $(call inherit-product-if-exists, vendor/dolby/dolby.mk)
 
 
 # Inherit from release keys
-$(call inherit-product, vendor/keys/product.mk)
+$(call inherit-product-if-exists, vendor/keys/product.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
