@@ -70,6 +70,9 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener
 
+PRODUCT_PACKAGES += \
+    libaudioroute.vendor
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
@@ -118,6 +121,10 @@ PRODUCT_PACKAGES += \
 
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
+PRODUCT_PACKAGES += \
+    libpng.vendor \
+    libutilscallstack.vendor
 
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
@@ -441,6 +448,12 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl
+
+PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libssl.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.se.omapi.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.ese.xml \
