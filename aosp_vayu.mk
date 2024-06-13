@@ -11,11 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common AOSP configurations
+# Inherit common Aosp configurations
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
+
+# SkylineUI Maintainer Flags
+SKYLINEUI_MAINTAINER := GXC2356
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 2400

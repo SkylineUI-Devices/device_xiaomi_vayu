@@ -1,6 +1,6 @@
 # Vendor
 rm -rf vendor/xiaomi/vayu
-git clone --depth=1 https://github.com/ProjectBlaze-Devices/vendor_xiaomi_vayu.git vendor/xiaomi/vayu
+git clone --depth=1 https://github.com/SkylineUI-Devices/vendor_xiaomi_vayu.git vendor/xiaomi/vayu
 
 # Kernel (Skyline)
 rm -rf kernel/xiaomi/vayu
