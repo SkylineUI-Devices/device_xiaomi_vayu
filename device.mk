@@ -34,7 +34,7 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Inherit from release keys
-$(call inherit-product, vendor/keys/product.mk)
+$(call inherit-product-if-exists, vendor/keys/product.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
