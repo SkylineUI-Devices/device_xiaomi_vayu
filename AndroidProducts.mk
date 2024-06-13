@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_vayu.mk
+    $(LOCAL_DIR)/aosp_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_vayu-eng \
-    blaze_vayu-userdebug \
-    blaze_vayu-user
+    aosp_vayu-eng \
+    aosp_vayu-userdebug \
+    aosp_vayu-user
