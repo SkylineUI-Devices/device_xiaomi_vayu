@@ -16,6 +16,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
+TARGET_DISABLE_EPPE := true
 
 # SkylineUI Maintainer Flags
 SKYLINEUI_MAINTAINER := GXC2356
