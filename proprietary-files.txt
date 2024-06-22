@@ -495,6 +495,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|12d4edcd85
 # Extras
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 vendor/lib/libplatformconfig.so|f46533ca08bbfa17b323aa364a96e4653324d7e4
+vendor/lib64/libdpps.so
 vendor/lib64/libplatformconfig.so|fcffe058ecd578396b4a406c3a00dfe6cc6b7d95
 vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libssc_default_listener.so
