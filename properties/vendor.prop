@@ -187,6 +187,9 @@ sys.vendor.shutdown.waittime=500
 
 # USB
 vendor.usb.product_string=Poco X3 Pro
+vendor.usb.diag.func.name=diag
+vendor.usb.use_ffs_mtp=0
+ro.usb.uvc.enabled=true
 
 # WiFi
 wifi.aware.interface=wifi-aware0

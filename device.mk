@@ -420,6 +420,7 @@ PRODUCT_PACKAGES += \
    SystemUIOverlayVayu \
    TelephonyOverlayVayu \
    TetheringConfigOverlayVayu \
+   DeviceAsWebcamVayu \
    WifiOverlayVayu
 
 # Power
