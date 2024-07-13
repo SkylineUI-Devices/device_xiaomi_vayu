@@ -96,7 +96,3 @@ debug.sf.latch_unsignaled=1
 media.wfd.max_resolution=8
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
-
-# LMKD
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=15
