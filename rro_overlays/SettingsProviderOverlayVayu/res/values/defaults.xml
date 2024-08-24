@@ -29,4 +29,6 @@
     <!-- 30 seconds for default screen timeout -->
     <integer name="def_screen_off_timeout">30000</integer>
 
+    <!-- Whether predictive back animation is enabled by default. -->
+    <bool name="def_enable_back_animation">true</bool>
 </resources>
