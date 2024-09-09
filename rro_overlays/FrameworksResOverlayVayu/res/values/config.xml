@@ -821,13 +821,13 @@
     
     <!-- Build properties from a GMS certified device -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>sailfish</item> <!-- Build.PRODUCT -->
-        <item>sailfish</item> <!-- Build.DEVICE -->
-        <item>Google</item> <!-- Build.MANUFACTURER -->
-        <item>google</item> <!-- Build.BRAND -->
-        <item>Pixel</item> <!-- Build.MODEL -->
-        <item>google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys</item> <!-- Build.FINGERPRINT -->
-        <item>2017-12-05</item> <!-- Build.SECURITY_PATCH -->
-        <item>OPM1.171019.011</item> <!-- Build.ID -->
+        <item>griffin_retcn</item> <!-- Build.PRODUCT -->
+        <item>griffin</item> <!-- Build.DEVICE -->
+        <item>motorola</item> <!-- Build.MANUFACTURER -->
+        <item>motorola</item> <!-- Build.BRAND -->
+        <item>XT1650-05</item> <!-- Build.MODEL -->
+        <item>motorola/griffin_retcn/griffin:6.0.1/MCC24.246-37/42:user/release-keys</item> <!-- Build.FINGERPRINT -->
+        <item>2016-07-01</item> <!-- Build.SECURITY_PATCH -->
+        <item>MCC24.246-37</item> <!-- Build.ID -->
     </string-array>
 </resources>
