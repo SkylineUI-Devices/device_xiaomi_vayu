@@ -821,13 +821,13 @@
     
     <!-- Build properties from a GMS certified device -->
     <string-array name="config_certifiedBuildProperties" translatable="false">
-        <item>caiman</item> <!-- Build.PRODUCT -->
-        <item>caiman</item> <!-- Build.DEVICE -->
+        <item>sailfish</item> <!-- Build.PRODUCT -->
+        <item>sailfish</item> <!-- Build.DEVICE -->
         <item>Google</item> <!-- Build.MANUFACTURER -->
         <item>google</item> <!-- Build.BRAND -->
-        <item>Pixel 9 Pro</item> <!-- Build.MODEL -->
-        <item>google/caiman/caiman:14/AD1A.240905.004/12196292:user/release-keys</item> <!-- Build.FINGERPRINT -->
-        <item>2024-09-05</item> <!-- Build.SECURITY_PATCH -->
-        <item>AD1A.240905.004</item> <!-- Build.ID -->
+        <item>Pixel</item> <!-- Build.MODEL -->
+        <item>google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys</item> <!-- Build.FINGERPRINT -->
+        <item>2017-12-05</item> <!-- Build.SECURITY_PATCH -->
+        <item>OPM1.171019.011</item> <!-- Build.ID -->
     </string-array>
 </resources>
