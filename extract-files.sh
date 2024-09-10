@@ -84,6 +84,9 @@ function blob_fixup() {
             ;;
         vendor/lib64/camera/components/com.qti.node.watermark.so)
             $PATCHELF_TOOL --add-needed "libpiex_shim.so" "${2}"
+        vendor/etc/seccomp_policy/atfwd@2.0.policy)
+            [ "$2" = "" ] && return 0
+            echo 'gettid: 1' >> ${2}
             ;;
         vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy)
         echo 'madvise: 1' >> ${2}
