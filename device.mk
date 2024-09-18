@@ -33,10 +33,6 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Dolby
-$(call inherit-product-if-exists, vendor/dolby/dolby.mk)
-
-
 # Inherit from release keys
 $(call inherit-product-if-exists, vendor/keys/product.mk)
 
