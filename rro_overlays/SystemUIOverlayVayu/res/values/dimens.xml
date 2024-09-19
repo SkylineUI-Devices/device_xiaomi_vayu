@@ -20,10 +20,10 @@
 	<dimen name="navigation_side_padding">85.0dip</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">12dp</dimen>
+    <dimen name="status_bar_padding_top">9dp</dimen>
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">23dp</dimen>
+    <dimen name="status_bar_padding_start">21dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">13dp</dimen>
@@ -32,7 +32,7 @@
     <dimen name="system_icons_keyguard_padding_end">8dp</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">32dp</dimen>
+    <dimen name="keyguard_carrier_text_margin">30dp</dimen>
 
     <!-- rounded corner content padding -->
     <dimen name="rounded_corner_content_padding">8dp</dimen>
