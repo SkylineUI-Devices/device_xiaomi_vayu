@@ -129,7 +129,7 @@ PRODUCT_PACKAGES += \
     GCamGOPrebuilt \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
-    libgui_vendor \
+    libgui.vendor \
     libxml2 \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
