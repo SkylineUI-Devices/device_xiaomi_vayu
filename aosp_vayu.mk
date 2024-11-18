@@ -15,11 +15,6 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
-TARGET_DISABLE_EPPE := true
-
-# SkylineUI Maintainer Flags
-SKYLINEUI_MAINTAINER := GXC2356
-CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 2400
