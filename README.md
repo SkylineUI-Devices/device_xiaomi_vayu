@@ -1,4 +1,4 @@
-Copyright (C) 2021 Android Open Source Project
+© 2016 - 2024 The LineageOS Project
 
 Device configuration for Poco X3 Pro
 =========================================
