@@ -1,4 +1,4 @@
-Copyright (C) 2021 Android Open Source Project
+Copyright (C) 2021 Android Open Source Projects
 
 Device configuration for Poco X3 Pro
 =========================================
